@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FirstTestMobileApp.Page1"
+             Title="FirstPage">
+    <ContentPage.Content>
+        <StackLayout x:Name="main">
+            <Entry x:Name="Entry1" Placeholder="Write"></Entry>
+            <Button x:Name="ButtonEntry" Text="Enter" FontAttributes="Bold" Clicked="ButtonEntry1"></Button>
+            <Label x:Name="Label1" FontSize="20" Text="Hello World!"></Label>
+            <Button x:Name="ButtonClick" Text="Click" FontAttributes="Bold" Clicked="ButtonClick1"></Button>
+            <Label x:Name="Score" Text="" TextColor="Black" FontSize="50" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
